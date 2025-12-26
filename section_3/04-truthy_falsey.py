@@ -17,7 +17,7 @@ print(bool(""))
 print(bool([]))
 print(bool(()))
 print(bool({}))
-print(bool(None))
+print(bool(None)) # Null == None
 
 
 
