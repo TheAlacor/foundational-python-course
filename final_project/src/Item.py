@@ -4,4 +4,4 @@ class Item:
         self.desc = desc
     
     def status(self):
-        return f"{self.name} - {self.desc}"     
+        return f"{self.name} - {self.desc}"   
