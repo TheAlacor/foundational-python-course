@@ -2,15 +2,15 @@ class Inventory:
     LIMIT = 5
     
     def __init__(self):
-        self._items = []
+        self._items = []    
         
     def _items_length(self) -> int:
         return len(self._items)
         
     def add_item(self, item):
-        len = self._items_length()
+        len_items = self._items_length()
 
-        if len < self.LIMIT:
+        if len_items < self.LIMIT:
             self._items.append(item)
         else:
             print("Inventory full")
@@ -25,8 +25,4 @@ class Inventory:
             status += "\n\t"
             status += item.status()
             
-        return status 
-
-    
-            
-            
+        return status         

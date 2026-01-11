@@ -9,3 +9,5 @@ class Mob(ABC):
     def health_bar(self) -> str:
         hearts = "❤️ "
         return hearts * self._health
+    
+    
